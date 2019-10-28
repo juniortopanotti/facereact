@@ -20,7 +20,7 @@ function PostItem({ post }) {
         <div id="post-content">
           { post.content }
         </div>
-        { post.comments.map(comment => <PostComment key={ comment.id } comment={ comment }/>)}
+        { post.comments.map(comment => <PostComment key={ comment.id + post.id } comment={ comment }/>)}
 {/*         
         <PostComment/>
         <PostComment/> */}

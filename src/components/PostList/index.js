@@ -98,7 +98,7 @@ class PostList extends Component {
   render() {
     return (
       <div id="post-list">
-        {this.state.posts.map(post => <PostItem key={post} post={post}/>)}
+        {this.state.posts.map(post => <PostItem key={post.id} post={post}/>)}
       </div>
     );
   }
