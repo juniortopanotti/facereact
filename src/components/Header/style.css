@@ -1,0 +1,31 @@
+header#main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 64px;
+  background: #4A90E2;
+}
+
+header#main-header img {
+  margin-left: 20px;
+  display: flex;
+}
+
+header#main-header div {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+header#main-header div span  {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+
+  margin-right: 7px;
+}
+
+header#main-header div i {
+  color: #ffffff;
+}

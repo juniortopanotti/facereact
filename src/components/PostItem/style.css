@@ -1,0 +1,50 @@
+div#post-item {
+  background: #ffffff;
+  width: 60%;
+  height: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+div#post-item hr {
+  color: #F2F2F2;
+}
+
+div#post-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div#post-user div {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+div#post-user div span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+div#post-user div small {
+  margin-top: 3px;
+  color: grey;
+  font-weight: 200;
+  
+}
+
+div#post-user img {
+  border-radius: 50px ;
+  width: 40px;
+  height: 40px;
+}
+
+div#post-content {
+  text-align: justify;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f1f1f1;
+}
